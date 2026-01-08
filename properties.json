@@ -1,0 +1,172 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 670000,
+      "tenure": "Freehold",
+      "description": "A stunning modern three-bedroom house with smart home features, solar panels, and includes EV charging points. This eco-friendly property features a state-of-the-art kitchen with integrated appliances, underfloor heating throughout, and a sophisticated home automation system. The open-plan living area flows into a landscaped garden with outdoor kitchen and lounge area.",
+      "location": "1st Avenue, 1st Cross Street, London E14",
+      "postcode": "A01 911",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop"
+      ],
+      "floorPlan": "Ground: Entrance hall, open-plan living/dining/kitchen, utility, WC. {First: 3 bedrooms (master en-suite), family bathroom}.",
+      "coordinates": { "lat": 51.5074, "lng": -0.1278 },
+      "added": { "month": "October", "day": 17 , "year": 2025 },
+      "features": ["Smart Home", "Solar Panels", "EV Charging", "Underfloor Heating", "Garden Office"]
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 725000,
+      "tenure": "Leasehold",
+      "description": "Luxury tech-enabled apartment in a state-of-the-art development with biometric entry, voice-controlled automation, and fiber optic broadband. Features include floor-to-ceiling windows with smart glass, integrated sound system, and premium appliances. Residents enjoy access to co-working spaces, gym, and rooftop terrace.",
+      "location": "2nd Avenue, 2nd Cross Street, London E14",
+      "postcode": "A02 911",
+      "images": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop"
+      ],
+      "floorPlan": "Open-plan living/kitchen, 2 double bedrooms, 2 bathrooms (1 en-suite), balcony.",
+      "coordinates": { "lat": 51.5054, "lng": -0.0235 },
+      "added": { "month": "April", "day": 22, "year": 2025 },
+      "features": ["Biometric Entry", "Voice Control", "Fiber Optic", "Rooftop Access", "Co-working Space"]
+    },
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 805000,
+      "tenure": "Freehold",
+      "description": "Architect-designed family home with home cinema, wine cellar, and integrated security system. Features include geothermal heating, rainwater harvesting, and electric vehicle charging. The property boasts a professional-grade kitchen, separate study, and landscaped garden with automated irrigation.",
+      "location": "3rd Avenue, 3rd Cross Street, London SW7",
+      "postcode": "A03 911",
+      "images": [
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1558036117-15e82a2c9a9a?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&h=600&fit=crop"
+      ],
+      "floorPlan": "Ground: Entrance, living room, dining room, kitchen, study, utility. First: 4 bedrooms (2 en-suite), family bathroom.",
+      "coordinates": { "lat": 51.4988, "lng": -0.1749 },
+      "added": { "month": "August", "day": 2, "year": 2025 },
+      "features": ["Home Cinema", "Wine Cellar", "Geothermal Heating", "Security System", "EV Charging"]
+    },
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 375000,
+      "tenure": "Leasehold",
+      "description": "Minimalist tech studio with smart storage solutions, motorized window shades, and premium audio-visual setup. Perfect for digital nomads with dedicated workspace, high-speed internet, and smart lighting system. Building features include parcel lockers, bike storage, and 24/7 concierge.",
+      "location": "4th Avenue, 4th Cross Street, London EC2",
+      "postcode": "A04 911",
+       "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&h=600&fit=crop&auto=format",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop&auto=format"
+      ],
+      "floorPlan": "Open-plan studio with kitchenette, sleeping area, bathroom, balcony.",
+      "coordinates": { "lat": 51.5250, "lng": -0.0846 },
+      "added": { "month": "June", "day": 13, "year": 2025 },
+      "features": ["Smart Storage", "Motorized Blinds", "Premium AV", "High-speed Internet", "Concierge"]
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1500000,
+      "tenure": "Freehold",
+      "description": "Ultra-modern smart villa with infinity pool, home automation, and professional kitchen. Features include solar roof, smart irrigation, electric car charging x2, and dedicated home office with video conferencing setup. The property includes a guest annexe with separate entrance.",
+      "location": "5th Avenue, 5th Cross Street, London TW9",
+      "postcode": "A05 911",
+      "images": [
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1558036117-15e82a2c9a9a?w=800&h=600&fit=crop"
+      ],
+      "floorPlan": "Ground: Great room, kitchen, study, cinema, gym. First: 5 bedrooms (3 en-suite), family bathroom. Annex: Guest suite.",
+      "coordinates": { "lat": 51.4613, "lng": -0.3030 },
+      "added": { "month": "December", "day": 15, "year": 2025 },
+      "features": ["Infinity Pool", "Solar Roof", "Home Automation", "Home Office", "Guest Annexe"]
+    },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 675000,
+      "tenure": "Leasehold",
+      "description": "Penthouse with panoramic views, smart climate control, and premium finishes throughout. Features include private terrace, wine cooler, integrated sound system, and smart home integration. Building amenities include gym, pool, and business center.",
+      "location": "6th Avenue, 6th Cross Street, London EC3",
+      "postcode": "A06 911",
+      "images": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop"
+      ],
+      "floorPlan": "Open-plan living, kitchen, 3 bedrooms (master en-suite), 2 bathrooms, terrace.",
+      "coordinates": { "lat": 51.5133, "lng": -0.0890 },
+      "added": { "month": "May", "day": 8, "year": 2025 },
+      "features": ["Panoramic Views", "Smart Climate", "Private Terrace", "Wine Cooler", "Pool Access"]
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 420000,
+      "tenure": "Freehold",
+      "description": "Contemporary townhouse with green roof, smart energy management, and electric vehicle charging. Features include home office with fiber optic, smart kitchen with induction cooking, and automated lighting system. The property includes a patio garden with outdoor entertainment system.",
+      "location": "7th Avenue, 7th Cross Street, London SE10",
+      "postcode": "A07 911",
+      "images": [
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1558036117-15e82a2c9a9a?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&h=600&fit=crop"
+      ],
+      "floorPlan": "Ground: Living/dining, kitchen, WC. First: 3 bedrooms, bathroom. Second: Home office, roof terrace.",
+      "coordinates": { "lat": 51.4831, "lng": -0.0041 },
+      "added": { "month": "February", "day": 28, "year": 2025 },
+      "features": ["Green Roof", "Energy Management", "Fiber Optic", "Induction Kitchen", "Outdoor Entertainment"]
+    }
+  ]
+}
