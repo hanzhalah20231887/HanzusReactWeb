@@ -1,0 +1,34 @@
+.tech-card {
+  background: var(--tech-card-bg);
+  border-radius: var(--tech-border-radius);
+  border: 1px solid var(--tech-border);
+  transition: var(--tech-transition);
+  overflow: hidden;
+  position: relative;
+}
+
+.tech-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--tech-accent), transparent);
+  opacity: 0;
+  transition: var(--tech-transition);
+}
+
+.tech-card-hoverable:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--tech-shadow), var(--tech-glow);
+  border-color: var(--tech-accent);
+}
+
+.tech-card-hoverable:hover::before {
+  opacity: 1;
+}
+
+.tech-card-glow {
+  box-shadow: var(--tech-glow);
+}
