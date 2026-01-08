@@ -1,0 +1,458 @@
+/* PropertyTabs.css - Updated with Tech Theme Colors */
+.property-tabs {
+  background: rgba(30, 41, 59, 0.9); /* Lighter tech theme */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  border: 1px solid var(--tech-border);
+  backdrop-filter: blur(10px);
+}
+
+.tabs-navigation {
+  display: flex;
+  background: rgba(41, 49, 69, 0.9); /* Darker for contrast */
+  border-bottom: 2px solid var(--tech-border);
+  padding: 0 1.5rem;
+}
+
+.tab-btn {
+  flex: 1;
+  background: none;
+  border: none;
+  padding: 1.25rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--tech-text-light);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  position: relative;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-btn:hover {
+  color: var(--tech-accent);
+  background: rgba(100, 255, 218, 0.1);
+}
+
+.tab-btn.active {
+  color: var(--tech-accent);
+  font-weight: 600;
+  border-bottom: 3px solid var(--tech-accent);
+  background: rgba(100, 255, 218, 0.05);
+}
+
+.tab-btn.active .tab-icon {
+  transform: scale(1.1);
+}
+
+.tab-icon {
+  font-size: 1.2rem;
+  transition: transform 0.2s;
+}
+
+.tabs-content-container {
+  padding: 2rem;
+  background: transparent;
+}
+
+/* Description Tab Styles */
+.description-content h3 {
+  color: var(--tech-text);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.description-text {
+  margin-bottom: 2rem;
+}
+
+.description-paragraph {
+  color: var(--tech-text-light);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.key-features h4 {
+  color: var(--tech-accent);
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: rgba(41, 49, 69, 0.7);
+  border-radius: 10px;
+  border: 1px solid var(--tech-border);
+  transition: all 0.2s;
+}
+
+.feature-item:hover {
+  transform: translateY(-2px);
+  border-color: var(--tech-accent);
+  background: rgba(100, 255, 218, 0.1);
+}
+
+.feature-icon {
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(17, 34, 64, 0.7);
+  border-radius: 10px;
+  flex-shrink: 0;
+  color: var(--tech-accent);
+}
+
+.feature-item div {
+  flex: 1;
+}
+
+.feature-item strong {
+  display: block;
+  color: var(--tech-accent-light);
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.feature-item p {
+  color: var(--tech-text);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Floor Plan Tab Styles - REMOVED DUPLICATE SVG STYLES */
+.floorplan-content h3 {
+  color: var(--tech-text);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.floorplan-overview {
+  background: rgba(41, 49, 69, 0.7);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  border: 1px solid var(--tech-border);
+}
+
+.floorplan-overview h4 {
+  color: var(--tech-accent);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.floorplan-overview p {
+  color: var(--tech-text-light);
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.floorplan-visualization {
+  margin-top: 2rem;
+}
+
+.floorplan-visualization h4 {
+  color: var(--tech-accent);
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+/* REMOVED conflicting floorplan-diagram and floorplan-svg styles */
+
+/* Map Tab Styles */
+.map-content h3 {
+  color: var(--tech-text);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.map-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.map-image {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--tech-border);
+}
+
+.static-map {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.map-note {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.location-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.address-section h4,
+.transport-section h4 {
+  color: var(--tech-accent);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.address-card {
+  background: rgba(41, 49, 69, 0.7);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--tech-border);
+}
+
+.address-line {
+  color: var(--tech-text);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.postcode {
+  color: var(--tech-text-light);
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.coordinates {
+  background: rgba(17, 34, 64, 0.5);
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--tech-border);
+}
+
+.coordinates span {
+  color: var(--tech-text-light);
+  font-size: 0.9rem;
+}
+
+.coordinates code {
+  color: var(--tech-accent);
+  font-family: monospace;
+  font-size: 0.9rem;
+  background: rgba(100, 255, 218, 0.1);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.transport-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.transport-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: rgba(41, 49, 69, 0.7);
+  border-radius: 10px;
+  border: 1px solid var(--tech-border);
+  transition: all 0.2s;
+}
+
+.transport-item:hover {
+  border-color: var(--tech-accent);
+  background: rgba(100, 255, 218, 0.1);
+}
+
+.transport-icon {
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(17, 34, 64, 0.7);
+  border-radius: 10px;
+  flex-shrink: 0;
+  color: var(--tech-accent);
+}
+
+.transport-item div {
+  flex: 1;
+}
+
+.transport-item strong {
+  display: block;
+  color: var(--tech-accent-light);
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.transport-item p {
+  color: var(--tech-text-light);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.static-map-container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--tech-border);
+}
+
+.static-map {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.map-details {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: rgba(41, 49, 69, 0.7);
+  border-radius: 10px;
+  border: 1px solid var(--tech-border);
+  color: var(--tech-text-light);
+  font-size: 0.9rem;
+}
+
+.area-info {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(41, 49, 69, 0.7);
+  border-radius: 10px;
+  border: 1px solid var(--tech-border);
+}
+
+.area-info h4 {
+  color: var(--tech-text);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.area-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.area-list li {
+  color: var(--tech-text-light);
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.area-list li::before {
+  content: '✓';
+  color: var(--tech-accent);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .static-map {
+    height: 300px;
+  }
+  
+  .map-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .map-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .static-map {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tabs-navigation {
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .tab-btn {
+    padding: 1rem;
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--tech-border);
+    border-right: 3px solid transparent;
+  }
+  
+  .tab-btn.active {
+    border-bottom: 1px solid var(--tech-border);
+    border-right: 3px solid var(--tech-accent);
+  }
+  
+  .tabs-content-container {
+    padding: 1.5rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .transport-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab-btn {
+    font-size: 0.95rem;
+  }
+  
+  .tab-icon {
+    font-size: 1rem;
+  }
+  
+  .description-content h3,
+  .floorplan-content h3,
+  .map-content h3 {
+    font-size: 1.3rem;
+  }
+  
+  .tabs-content-container {
+    padding: 1.25rem;
+  }
+}
