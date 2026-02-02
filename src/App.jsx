@@ -59,7 +59,7 @@ function App() {
           
           <footer className="app-footer">
             <div className="container">
-              <p>&copy; 2024 Property Search</p>
+              <p>&copy; 2026 Property Search</p>
               <p className="security-notice">🔒 Secure with CSP protection</p>
             </div>
           </footer>
